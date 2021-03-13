@@ -61,7 +61,7 @@ public class FormNotice extends AppCompatActivity {
         final String nTitle = valTitle.trim();
         final String nMessage = valMessage.trim();
         final String nDepartment = valDepartment.trim();
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, "https://script.google.com/macros/s/AKfycbzJ85nvoPaji40FuTZKHBrX2w-p79WosAXq92icrLbLdKUnoBM6yHByH5uTtGq5pf7Y/exec",
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, "https://script.google.com/home/projects/1dfOqZoSyZgA91NnrbAkpB6P0YYTf0V9TmzV-R7p8aI0Bmi5zrqXyGTRH/edit",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
